@@ -1,0 +1,30 @@
+[
+  {
+    "rule": "K1",
+    "from_date": "D1",
+    "common_floor": "1",
+    "override": "1.15",
+    "scope": "原持仓"
+  },
+  {
+    "rule": "K2",
+    "from_date": "D7",
+    "common_floor": "0.8",
+    "override": "0.95",
+    "scope": "新增"
+  },
+  {
+    "rule": "K3",
+    "from_date": "D1",
+    "common_floor": "1",
+    "override": "1.1",
+    "scope": "原持仓"
+  },
+  {
+    "rule": "K4",
+    "from_date": "D8",
+    "common_floor": "0.8",
+    "override": "0.85",
+    "scope": "新签组合"
+  }
+]

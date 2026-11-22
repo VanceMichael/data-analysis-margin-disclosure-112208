@@ -1,0 +1,30 @@
+[
+  {
+    "group": "G1",
+    "desk": "D1",
+    "limit": "90",
+    "state": "已接受",
+    "asof": "D7"
+  },
+  {
+    "group": "G1",
+    "desk": "D2",
+    "limit": "70",
+    "state": "待议",
+    "asof": "D7"
+  },
+  {
+    "group": "G2",
+    "desk": "D2",
+    "limit": "110",
+    "state": "已接受",
+    "asof": "D7"
+  },
+  {
+    "group": "G3",
+    "desk": "D1",
+    "limit": "120",
+    "state": "待议",
+    "asof": "D8"
+  }
+]

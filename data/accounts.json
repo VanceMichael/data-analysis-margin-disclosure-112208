@@ -1,0 +1,26 @@
+[
+  {
+    "account": "A1",
+    "group": "G1",
+    "desk": "D1",
+    "product": "普通"
+  },
+  {
+    "account": "A2",
+    "group": "G1",
+    "desk": "D2",
+    "product": "组合"
+  },
+  {
+    "account": "A3",
+    "group": "G2",
+    "desk": "D2",
+    "product": "普通"
+  },
+  {
+    "account": "A4",
+    "group": "G3",
+    "desk": "D1",
+    "product": "组合"
+  }
+]

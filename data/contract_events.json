@@ -1,0 +1,62 @@
+[
+  {
+    "contract": "K1",
+    "lot": "L1",
+    "account": "A1",
+    "kind": "签认",
+    "signed_day": "D1",
+    "signed_minute": "30",
+    "effective_day": "D1",
+    "prior_contract": "?"
+  },
+  {
+    "contract": "K2",
+    "lot": "L2",
+    "account": "A1",
+    "kind": "签认",
+    "signed_day": "D7",
+    "signed_minute": "20",
+    "effective_day": "D7",
+    "prior_contract": "?"
+  },
+  {
+    "contract": "K1",
+    "lot": "L3",
+    "account": "A2",
+    "kind": "续期",
+    "signed_day": "D7",
+    "signed_minute": "80",
+    "effective_day": "D7",
+    "prior_contract": "K1"
+  },
+  {
+    "contract": "K2",
+    "lot": "L4",
+    "account": "A3",
+    "kind": "签认",
+    "signed_day": "D7",
+    "signed_minute": "24",
+    "effective_day": "D7",
+    "prior_contract": "?"
+  },
+  {
+    "contract": "K3",
+    "lot": "L5",
+    "account": "A4",
+    "kind": "签认",
+    "signed_day": "D4",
+    "signed_minute": "15",
+    "effective_day": "D4",
+    "prior_contract": "?"
+  },
+  {
+    "contract": "K4",
+    "lot": "L3",
+    "account": "A2",
+    "kind": "补签",
+    "signed_day": "D8",
+    "signed_minute": "560",
+    "effective_day": "D9",
+    "prior_contract": "K1"
+  }
+]

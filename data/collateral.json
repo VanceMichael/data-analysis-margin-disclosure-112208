@@ -1,0 +1,52 @@
+[
+  {
+    "pledge": "C1",
+    "groups": "G1",
+    "security": "X",
+    "units": "30",
+    "currency": "CNY",
+    "share": "yes",
+    "state": "待确",
+    "asof": "D7"
+  },
+  {
+    "pledge": "C1",
+    "groups": "G1",
+    "security": "X",
+    "units": "18",
+    "currency": "CNY",
+    "share": "yes",
+    "state": "部分有效",
+    "asof": "D8"
+  },
+  {
+    "pledge": "C1",
+    "groups": "G2",
+    "security": "X",
+    "units": "12",
+    "currency": "CNY",
+    "share": "no",
+    "state": "独立受理",
+    "asof": "D8"
+  },
+  {
+    "pledge": "C2",
+    "groups": "G1",
+    "security": "Y",
+    "units": "19",
+    "currency": "FX",
+    "share": "yes",
+    "state": "已确",
+    "asof": "D7"
+  },
+  {
+    "pledge": "C3",
+    "groups": "G3",
+    "security": "Y",
+    "units": "31",
+    "currency": "CNY",
+    "share": "no",
+    "state": "已确",
+    "asof": "D7"
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "lot": "L1",
+    "account": "A1",
+    "units": "20",
+    "opened": "D1",
+    "kind": "原持仓",
+    "contract": "K1",
+    "security": "X"
+  },
+  {
+    "lot": "L2",
+    "account": "A1",
+    "units": "10",
+    "opened": "D7",
+    "kind": "新增",
+    "contract": "K2",
+    "security": "X"
+  },
+  {
+    "lot": "L3",
+    "account": "A2",
+    "units": "16",
+    "opened": "D7",
+    "kind": "续期",
+    "contract": "K1",
+    "security": "Y"
+  },
+  {
+    "lot": "L4",
+    "account": "A3",
+    "units": "20",
+    "opened": "D7",
+    "kind": "新增",
+    "contract": "K2",
+    "security": "Y"
+  },
+  {
+    "lot": "L5",
+    "account": "A4",
+    "units": "25",
+    "opened": "D4",
+    "kind": "原持仓",
+    "contract": "K3",
+    "security": "X"
+  }
+]

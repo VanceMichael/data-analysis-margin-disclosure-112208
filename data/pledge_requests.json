@@ -1,0 +1,38 @@
+[
+  {
+    "request": "P1",
+    "pledge": "C1",
+    "group": "G1",
+    "desk": "D1",
+    "units": "18",
+    "asof": "D7",
+    "state": "已申报"
+  },
+  {
+    "request": "P2",
+    "pledge": "C1",
+    "group": "G1",
+    "desk": "D2",
+    "units": "16",
+    "asof": "D7",
+    "state": "待议"
+  },
+  {
+    "request": "P3",
+    "pledge": "C1",
+    "group": "G2",
+    "desk": "D2",
+    "units": "12",
+    "asof": "D7",
+    "state": "待权属"
+  },
+  {
+    "request": "P4",
+    "pledge": "C1",
+    "group": "G2",
+    "desk": "D2",
+    "units": "12",
+    "asof": "D8",
+    "state": "已受理"
+  }
+]
