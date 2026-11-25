@@ -1,0 +1,69 @@
+{
+  "reportKind": "收盘组级",
+  "recipientScope": {
+    "group": "G3",
+    "desk": "D1"
+  },
+  "valuationBasis": {
+    "valuationDay": "D7",
+    "evidenceCutoff": {
+      "day": "D8",
+      "minute": 560
+    },
+    "marketEvents": [
+      "Q5",
+      "Q6"
+    ]
+  },
+  "groupLevel": {
+    "netExposureCny": -184,
+    "acceptedLimitCny": 0,
+    "undrawnCny": 0,
+    "excessOverAcceptedLimitCny": 0,
+    "riskLabel": "正常",
+    "marginCoverage": {
+      "marginRequirementCny": 275,
+      "collateralCountedOnceCny": 434,
+      "marginShortfallBeforeLimitsCny": 0,
+      "acceptedLimitCny": 0,
+      "residualCollateralPlusLimitMinusMarginCny": 159
+    }
+  },
+  "businessLineTrace": {
+    "grossExposureCny": 250,
+    "confirmedCnyFromKnownFactors": 250,
+    "localConfirmedExposure": [
+      {
+        "lot": "L5",
+        "security": "X",
+        "units": 25,
+        "price": 10,
+        "localNotional": 250,
+        "fxKnown": true
+      }
+    ],
+    "recognizedFormalDeskCollateralCny": 434,
+    "formalDeskNetExposureCny": -184,
+    "acceptedDeskLimitCny": 0,
+    "deskExcessCny": 0
+  },
+  "actions": [
+    "继续按基准监控"
+  ],
+  "sources": {
+    "lots": [
+      "L5"
+    ],
+    "marketAndContractEvents": [
+      "K3/L5/D4:15",
+      "Q5"
+    ],
+    "pledges": [
+      "C3"
+    ],
+    "contracts": [
+      "K3"
+    ]
+  },
+  "policyHash": "d31f23686ac2"
+}

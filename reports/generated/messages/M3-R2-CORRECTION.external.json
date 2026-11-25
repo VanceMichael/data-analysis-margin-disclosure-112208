@@ -1,0 +1,71 @@
+{
+  "reportKind": "收盘更正",
+  "recipientScope": {
+    "group": "G2",
+    "desk": "D2"
+  },
+  "valuationBasis": {
+    "valuationDay": "D7",
+    "evidenceCutoff": {
+      "day": "D8",
+      "minute": 560
+    },
+    "marketEvents": [
+      "Q5",
+      "Q6"
+    ]
+  },
+  "groupLevel": {
+    "netExposureCny": 132,
+    "acceptedLimitCny": 110,
+    "undrawnCny": 0,
+    "excessOverAcceptedLimitCny": 22,
+    "riskLabel": "高",
+    "marginCoverage": {
+      "marginRequirementCny": 239.4,
+      "collateralCountedOnceCny": 120,
+      "marginShortfallBeforeLimitsCny": 119.4,
+      "acceptedLimitCny": 110,
+      "residualCollateralPlusLimitMinusMarginCny": -9.4
+    }
+  },
+  "businessLineTrace": {
+    "grossExposureCny": 252,
+    "confirmedCnyFromKnownFactors": 252,
+    "localConfirmedExposure": [
+      {
+        "lot": "L4",
+        "security": "Y",
+        "units": 20,
+        "price": 14,
+        "localNotional": 280,
+        "fxKnown": true
+      }
+    ],
+    "recognizedFormalDeskCollateralCny": 120,
+    "formalDeskNetExposureCny": 132,
+    "acceptedDeskLimitCny": 110,
+    "deskExcessCny": 22
+  },
+  "actions": [
+    "按已接受额度缺口追加保证/核对追加抵押",
+    "保证金压力口径下，抵押+已接受额度相对要求仍差 9.4；额度不当然等同抵押，需核对追加保证或额度可用性",
+    "业务线正式归属轨迹超本线已接受额度；须先核对共享抵押/额度归属，不直接等同于组级最终超额"
+  ],
+  "sources": {
+    "lots": [
+      "L4"
+    ],
+    "marketAndContractEvents": [
+      "K2/L4/D7:24",
+      "Q6"
+    ],
+    "pledges": [
+      "C1"
+    ],
+    "contracts": [
+      "K2"
+    ]
+  },
+  "policyHash": "d31f23686ac2"
+}

@@ -1,0 +1,73 @@
+{
+  "reportKind": "收盘组级",
+  "recipientScope": {
+    "group": "G1",
+    "desk": "D2"
+  },
+  "valuationBasis": {
+    "valuationDay": "D7",
+    "evidenceCutoff": {
+      "day": "D8",
+      "minute": 560
+    },
+    "marketEvents": [
+      "Q5",
+      "Q6"
+    ]
+  },
+  "groupLevel": {
+    "netExposureCny": 82.2,
+    "acceptedLimitCny": 90,
+    "undrawnCny": 7.8,
+    "excessOverAcceptedLimitCny": 0,
+    "riskLabel": "需复核/关注",
+    "marginCoverage": {
+      "marginRequirementCny": 556.84,
+      "collateralCountedOnceCny": 419.4,
+      "marginShortfallBeforeLimitsCny": 137.44,
+      "acceptedLimitCny": 90,
+      "residualCollateralPlusLimitMinusMarginCny": -47.44
+    }
+  },
+  "businessLineTrace": {
+    "grossExposureCny": 201.6,
+    "confirmedCnyFromKnownFactors": 201.6,
+    "localConfirmedExposure": [
+      {
+        "lot": "L3",
+        "security": "Y",
+        "units": 16,
+        "price": 14,
+        "localNotional": 224,
+        "fxKnown": true
+      }
+    ],
+    "recognizedFormalDeskCollateralCny": 0,
+    "formalDeskNetExposureCny": 201.6,
+    "acceptedDeskLimitCny": 0,
+    "deskExcessCny": 201.6,
+    "note": "组级共享抵押在 G1 层只计一次；无正式业务线归属的 C2 不伪装成 D2 已确认抵押，安全匹配仅留内参。"
+  },
+  "actions": [
+    "保证金压力口径下，抵押+已接受额度相对要求仍差 47.44；额度不当然等同抵押，需核对追加保证或额度可用性",
+    "业务线正式归属轨迹超本线已接受额度；须先核对共享抵押/额度归属，不直接等同于组级最终超额",
+    "共享抵押归属需核对；组级未重复计算"
+  ],
+  "sources": {
+    "lots": [
+      "L3"
+    ],
+    "marketAndContractEvents": [
+      "K1/L3/D7:80",
+      "Q6"
+    ],
+    "pledges": [
+      "C1",
+      "C2"
+    ],
+    "contracts": [
+      "K1"
+    ]
+  },
+  "policyHash": "d31f23686ac2"
+}
